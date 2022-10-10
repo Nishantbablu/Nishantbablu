@@ -1,10 +1,17 @@
-Pkg install && pkg upgrade
-Pkg install git 
-Pkg install python
-Git clone https://github.com/Cabbagec/termux-evildevi
+pkg update
+pkg upgrade
+pkg install python
+pkg install python2
+pkg install python3
+pkg install git
+termux-setup-storage
+cd /sdcard
 ls
-Chomd +x *
-Pip install -r requirements.txt
+cd Hacked
+git clone https://github.com/IAmBlackHacker/Facebook-BruteForce
 ls
-Python main.py -h
-Python main.py -u(user name )
+cd Facebook-BruteForce
+python3 -m pip install request bs4
+python3 -m pip install mechanize
+ls
+python3 fb.py or python fb2.py
